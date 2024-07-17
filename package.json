@@ -1,0 +1,27 @@
+{
+  "name": "metadent-replication",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "events": "^3.3.0",
+    "pouchdb": "^8.0.1",
+    "pouchdb-adapter-http": "^9.0.0",
+    "pouchdb-find": "^9.0.0",
+    "vue": "^3.4.21",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/pouchdb": "^6.4.2",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
